@@ -82,14 +82,13 @@
 }
 
 .main {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    height: 90vh;
-    align-items: center;
     &__title {
         font-size: $title;
         text-align: center;
-        margin: auto;
+        margin: 60px auto;
     }
 }
 
@@ -238,4 +237,9 @@ border-radius: 18px;
         font-style: italic;
         font-weight: 400;
     }
+}
+
+.tabla-estados {
+    margin: auto;
+    width: 100%;
 }

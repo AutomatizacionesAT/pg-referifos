@@ -127,7 +127,6 @@ label {
   hyphens: auto;
   /* background-color: transparent; */
   color: inherit;
-  display: block;
   /* opcional */
   /* -webkit-appearance: none;
      -moz-appearance: none;
@@ -135,13 +134,6 @@ label {
 }
 
 /* Reseteamos las tablas */
-table,
-tr,
-td {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 /* Evitamos problemas con los SVG */
 svg {
   width: 100%;
@@ -234,15 +226,14 @@ svg {
 }
 
 .main {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  height: 90vh;
-  align-items: center;
 }
 .main__title {
   font-size: 4.5rem;
   text-align: center;
-  margin: auto;
+  margin: 60px auto;
 }
 
 .form-refer {
@@ -391,6 +382,11 @@ svg {
   font-size: 1.4rem;
   font-style: italic;
   font-weight: 400;
+}
+
+.tabla-estados {
+  margin: auto;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
