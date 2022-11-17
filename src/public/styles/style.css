@@ -141,12 +141,6 @@ svg {
   fill: currentColor;
 }
 
-/* (Probándolo, no usar en producción) En el caso de añadir una  */
-/* p svg{
-    display: inline;
-    width: initial;
-  } */
-/* Configuramos la tipografía para toda la web */
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -241,8 +235,8 @@ svg {
   flex-wrap: wrap;
   overflow: auto;
   width: 70%;
-  height: 70vh;
-  margin: auto;
+  max-width: 960px;
+  margin: 20px auto;
   border: 3px groove #ff7900;
 }
 .form-refer__section {
@@ -265,7 +259,7 @@ svg {
   padding: 18px 0 0;
   width: 100%;
   max-width: 300px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .form__group--file {
   font-size: 1.4rem;
@@ -276,7 +270,7 @@ svg {
   font-family: inherit;
   width: 100%;
   border: none;
-  border-bottom: 2px solid #9b9b9b;
+  border-bottom: 2px solid #adb5bd;
   outline: 0;
   font-size: 1.4rem;
   color: #01426a;
@@ -346,13 +340,13 @@ svg {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   font-size: 17px;
-  color: #9b9b9b;
+  color: #adb5bd;
   pointer-events: none;
 }
 
 .btn-send {
   display: block;
-  margin: 12px auto;
+  margin: 18px auto;
   color: #f8f9fa;
   font-size: 1.6rem;
   padding: 10px 30px;
@@ -387,6 +381,38 @@ svg {
 .tabla-estados {
   margin: auto;
   width: 100%;
+}
+
+.form__select {
+  width: 100%;
+  margin: 20px auto 5px;
+  max-width: 300px;
+  border-bottom: 2px solid #adb5bd;
+  outline: none;
+}
+
+.bx-login {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-login {
+  width: 30%;
+  margin: auto;
+  padding: 12px 18px;
+  border: 3px groove #ff7900;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.form-login h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 18px auto 36px;
 }
 
 /*# sourceMappingURL=style.css.map */
